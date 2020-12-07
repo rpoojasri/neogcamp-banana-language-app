@@ -1,17 +1,46 @@
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('minions.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 
 textarea{
+
     display: block;
-    height:10vh;
-    width : 80%;
-    margin:1rem;
-    padding:1rem;
+    height:  10vh;
+    width : 50%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius:20px ;
+    
 }
+   
 
-#output{
+button{
+    
     border: 1px solid black;
-    height:10vh;
-    width : 80%;
-    margin:1rem;
-    padding:1rem;
-
+    border-radius:20px ;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    appearance: button;
 }
+
